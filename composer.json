@@ -1,0 +1,21 @@
+{
+    "name": "shuangfeilee/curl",
+    "description": "curl",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "shuangfeilee",
+            "email": "shuangfeilee@yeah.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "mfunc\\": "src/"
+        }
+    }
+}
